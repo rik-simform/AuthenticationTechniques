@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<h1>
+
+    Welcome
+    @if (!string.IsNullOrEmpty(ViewBag.User))
+    {
+        @ViewBag.User
+    }
+</h1>
+
+<br/>
+<br/>
+
+
+    @Html.ActionLink("LogOut","Logout","Home")
+
