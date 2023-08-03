@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoFactorAuthenticationDemo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsAuthenticationDemo", "..\WindowsAuthenticationDemo\WindowsAuthenticationDemo.csproj", "{8EFD9465-27E2-49B1-9852-99855D3448E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyBasedAuthorization", "..\PolicyBasedAuthorization\PolicyBasedAuthorization.csproj", "{47030FAA-88A1-455F-8CB7-6E42AC1374BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8EFD9465-27E2-49B1-9852-99855D3448E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EFD9465-27E2-49B1-9852-99855D3448E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EFD9465-27E2-49B1-9852-99855D3448E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47030FAA-88A1-455F-8CB7-6E42AC1374BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47030FAA-88A1-455F-8CB7-6E42AC1374BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47030FAA-88A1-455F-8CB7-6E42AC1374BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47030FAA-88A1-455F-8CB7-6E42AC1374BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
